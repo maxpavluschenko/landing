@@ -49,7 +49,8 @@ ul {
 section {
   scroll-behavior: smooth;
   scroll-margin-top: 76px;
-  min-height: 150px; }
+  min-height: 150px;
+  overflow: hidden; }
   section ul {
     position: relative;
     list-style: none;
@@ -118,7 +119,6 @@ button {
     height: 200px; }
 
 .header {
-  height: 76px;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -154,6 +154,7 @@ button {
   .header .navbar {
     display: -ms-flexbox;
     display: flex;
+    height: 60px;
     background-color: #4285f4; }
     .header .navbar-wrapper {
       position: relative;
@@ -175,7 +176,7 @@ button {
       white-space: nowrap; }
       .header .navbar-logo img {
         width: auto;
-        height: 56px; }
+        height: 50px; }
     .header .navbar-list {
       display: -ms-flexbox !important;
       display: flex !important;
@@ -202,6 +203,21 @@ button {
           background-color: rgba(255, 255, 255, 0.1); }
       .header .navbar-nav .nav-item.active .nav-link {
         background-color: rgba(255, 255, 255, 0.1); }
+  @media screen and (max-width: 680px) {
+    .header .top-info > div {
+      width: 100%; }
+    .header .navbar {
+      height: auto; }
+      .header .navbar-wrapper {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+      .header .navbar-list {
+        margin: 15px 0 0 0; }
+      .header .navbar-nav {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+        .header .navbar-nav .nav-item {
+          margin-bottom: 20px; } }
 
 .contacts {
   position: relative;
@@ -239,9 +255,11 @@ button {
         margin-bottom: 10px; }
   @media screen and (max-width: 1024px) {
     .contacts-wrapper {
+      margin: 0;
       -ms-flex-direction: column-reverse;
           flex-direction: column-reverse; }
       .contacts-wrapper > div {
+        padding: 0;
         margin-bottom: 15px; } }
 
 .vacancies {
@@ -257,12 +275,14 @@ button {
     grid-template-columns: 100px 1fr 250px auto;
     background-color: #fff;
     box-shadow: 0 3px 6px #d5d8da; }
-    .vacancies-wrapper .vacancy-info h3 {
-      margin-top: 0;
-      color: #48575e; }
-    .vacancies-wrapper .vacancy-info p {
-      font-size: 14px;
-      color: #96a9b2; }
+    .vacancies-wrapper .vacancy-info {
+      padding: 0 25px; }
+      .vacancies-wrapper .vacancy-info h3 {
+        margin-top: 0;
+        color: #48575e; }
+      .vacancies-wrapper .vacancy-info p {
+        font-size: 14px;
+        color: #96a9b2; }
     .vacancies-wrapper .vacancy-price {
       padding: 0 25px; }
       .vacancies-wrapper .vacancy-price > div {
@@ -288,6 +308,14 @@ button {
         color: #FC6E51;
         text-decoration: underline;
         background-color: rgba(0, 0, 0, 0.1); }
+  @media screen and (max-width: 1024px) {
+    .vacancies-wrapper {
+      display: grid;
+      grid-gap: 25px;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+      .vacancies-wrapper .vacancy {
+        grid-gap: 10px;
+        grid-template-columns: auto; } }
 
 .services {
   display: -ms-flexbox;
@@ -309,7 +337,7 @@ button {
     display: flex;
     -ms-flex-align: center;
         align-items: center;
-    margin: 0 -15px; }
+    margin: 0 -15px 30px -15px; }
     .about-us-wrapper > div {
       -ms-flex: 1;
           flex: 1;

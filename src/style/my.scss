@@ -1,5 +1,4 @@
 .header {
-  height: 76px;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -46,6 +45,7 @@
 
   .navbar {
     display: flex;
+    height: 60px;
     background-color: #4285f4;
 
     &-wrapper {
@@ -71,7 +71,7 @@
 
       img {
         width: auto;
-        height: 56px;
+        height: 50px;
       }
     }
 
@@ -109,6 +109,29 @@
 
         &.active .nav-link {
           background-color: rgba(255, 255, 255, 0.1);
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 680px) {
+    .top-info{
+      >div{
+        width: 100%;
+      }
+    }
+    .navbar {
+      height: auto;
+      &-wrapper {
+        flex-wrap: wrap;
+      }
+      &-list{
+        margin: 15px 0 0 0;
+      }
+      &-nav{
+        flex-wrap: wrap;
+        .nav-item{
+          margin-bottom: 20px;
         }
       }
     }
@@ -157,9 +180,11 @@
 
   @media screen and (max-width: 1024px) {
     &-wrapper {
+      margin: 0;
       flex-direction: column-reverse;
 
       > div {
+        padding: 0;
         margin-bottom: 15px;
       }
     }
@@ -182,6 +207,8 @@
       box-shadow: 0 3px 6px #d5d8da;
 
       &-info {
+        padding: 0 25px;
+
         h3 {
           margin-top: 0;
           color: #48575e;
@@ -228,6 +255,19 @@
       }
     }
   }
+
+  @media screen and (max-width: 1024px) {
+    &-wrapper {
+      display: grid;
+      grid-gap: 25px;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+      .vacancy {
+        grid-gap: 10px;
+        grid-template-columns: auto
+      }
+    }
+  }
 }
 
 .services {
@@ -248,7 +288,7 @@
   &-wrapper {
     display: flex;
     align-items: center;
-    margin: 0 -15px;
+    margin: 0 -15px 30px -15px;
 
     > div {
       flex: 1;

@@ -10,7 +10,7 @@
       <change beforePath="$PROJECT_DIR$/src/style/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/global.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/my.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/my.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/template/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/template/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/services.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/template/vacancies.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/vacancies.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/template/visa.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/visa.html" afterDir="false" />
@@ -65,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607869304885</updated>
-      <workItem from="1607869309750" duration="19251000" />
+      <workItem from="1607869309750" duration="21265000" />
     </task>
     <servers />
   </component>
