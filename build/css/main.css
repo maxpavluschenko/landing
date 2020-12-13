@@ -21,13 +21,14 @@ body {
     width: 1170px; } }
 
 h2 {
+  margin-bottom: 10px;
   text-align: center; }
 
 .line {
   display: block;
   width: 160px;
   height: 2px;
-  margin: 16px auto 0;
+  margin: 10px auto 40px auto;
   background-color: #81b136; }
 
 section {
@@ -176,4 +177,4 @@ button {
     .about-us-wrapper > div {
       -ms-flex: 1;
           flex: 1;
-      padding: 50px 15px; }
+      padding: 0 15px; }
