@@ -92,7 +92,7 @@ button {
     height: 200px; }
 
 .contacts {
-  background: url("/img/lviv.jpg") center center no-repeat;
+  background: url("img/lviv.jpg") center center no-repeat;
   background-size: cover;
   font-family: 'Raleway', sans-serif; }
   .contacts h2 {
