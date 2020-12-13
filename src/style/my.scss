@@ -1,0 +1,88 @@
+.contacts {
+  font-family: 'Raleway', sans-serif;
+  &-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 0 -15px;
+
+    > div {
+      flex: 1;
+      padding: 50px 15px;
+    }
+    .contact-info{
+      p{
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+
+.vacancies {
+  display: flex;
+  background-color: $gray-bg;
+
+  &-wrapper {
+    .vacancy {
+      display: grid;
+      align-items: center;
+      grid-gap: 25px;
+      margin-bottom: 15px;
+      grid-template-columns: 100px 1fr 250px auto;
+      background-color: #fff;
+      box-shadow: 0 3px 6px #d5d8da;
+
+      &-info {
+        h3 {
+          margin-top: 0;
+          color: #48575e;
+        }
+
+        p {
+          font-size: 14px;
+          color: #96a9b2;
+        }
+      }
+
+      &-price {
+        padding: 0 25px;
+
+        > div {
+          margin: 5px 0;
+          white-space: nowrap;
+        }
+      }
+
+      &-btn {
+        padding: 25px;
+      }
+    }
+  }
+}
+
+.services {
+  display: flex;
+  background-color: $gray-bg;
+
+  &-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+
+.about-us {
+  display: flex;
+
+  &-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 0 -15px;
+
+    > div {
+      flex: 1;
+      padding: 50px 15px;
+    }
+  }
+}
