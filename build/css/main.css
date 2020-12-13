@@ -1,3 +1,6 @@
+* {
+  scroll-behavior: smooth !important; }
+
 body {
   margin: 0;
   padding: 0; }
@@ -22,6 +25,7 @@ body {
     width: 1170px; } }
 
 h2 {
+  color: #212529;
   margin-bottom: 10px;
   text-align: center; }
 
@@ -32,25 +36,45 @@ h2 {
   margin: 10px auto 40px auto;
   background-color: #81b136; }
 
-section {
-  min-height: 150px; }
+a {
+  transition: .3s;
+  text-decoration: none; }
 
 ul {
   position: relative;
   list-style: none;
   margin: 0;
-  padding-left: 1.2em; }
-  ul li {
-    margin: 10px 0; }
-    ul li:before {
-      content: "+";
-      position: absolute;
-      left: 0; }
+  padding: 0; }
+
+section {
+  scroll-behavior: smooth;
+  scroll-margin-top: 76px;
+  min-height: 150px; }
+  section ul {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding-left: 1.2em; }
+    section ul li {
+      margin: 10px 0; }
+      section ul li:before {
+        content: "+";
+        position: absolute;
+        left: 0; }
 
 p {
   margin: 0;
   padding: 0;
   line-height: 24px; }
+
+.mr-auto {
+  margin-right: auto !important; }
+
+.ml-auto {
+  margin-left: auto !important; }
+
+.red-color {
+  color: red; }
 
 img {
   display: block;
@@ -93,6 +117,92 @@ button {
     width: 200px;
     height: 200px; }
 
+.header {
+  height: 76px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000; }
+  .header .container {
+    padding: 0 15px !important; }
+  .header .top-info {
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 40px;
+    background-color: #fff; }
+    .header .top-info > div {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+          align-items: center;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+    .header .top-info .socials {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+          align-items: center; }
+      .header .top-info .socials .item:not(:last-child) {
+        margin-right: 10px; }
+      .header .top-info .socials .item img {
+        width: 24px;
+        height: 24px; }
+    .header .top-info--link {
+      color: #212529; }
+      .header .top-info--link:hover {
+        color: #4285f4; }
+  .header .navbar {
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #4285f4; }
+    .header .navbar-wrapper {
+      position: relative;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 0;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+    .header .navbar-logo {
+      display: inline-block;
+      padding-top: .3125rem;
+      padding-bottom: .3125rem;
+      margin-right: 1rem;
+      color: #fff;
+      font-size: 1.25rem;
+      line-height: inherit;
+      white-space: nowrap; }
+      .header .navbar-logo img {
+        width: auto;
+        height: 56px; }
+    .header .navbar-list {
+      display: -ms-flexbox !important;
+      display: flex !important;
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+      -ms-flex-align: center;
+      align-items: center; }
+    .header .navbar-nav {
+      display: -ms-flexbox;
+      display: flex;
+      padding-left: 0;
+      margin: 0;
+      list-style: none; }
+      .header .navbar-nav .nav-item .nav-link {
+        padding: 10px 12px;
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+        transition: .35s; }
+        .header .navbar-nav .nav-item .nav-link:hover, .header .navbar-nav .nav-item .nav-link:focus, .header .navbar-nav .nav-item .nav-link:active, .header .navbar-nav .nav-item .nav-link:visited {
+          color: rgba(255, 255, 255, 0.75);
+          background-color: rgba(255, 255, 255, 0.1); }
+      .header .navbar-nav .nav-item.active .nav-link {
+        background-color: rgba(255, 255, 255, 0.1); }
+
 .contacts {
   position: relative;
   font-family: 'Raleway', sans-serif; }
@@ -127,6 +237,12 @@ button {
       background-color: rgba(255, 255, 255, 0.7); }
       .contacts-wrapper .contact-info p {
         margin-bottom: 10px; }
+  @media screen and (max-width: 1024px) {
+    .contacts-wrapper {
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse; }
+      .contacts-wrapper > div {
+        margin-bottom: 15px; } }
 
 .vacancies {
   display: -ms-flexbox;
@@ -198,3 +314,9 @@ button {
       -ms-flex: 1;
           flex: 1;
       padding: 0 15px; }
+  @media screen and (max-width: 1024px) {
+    .about-us-wrapper {
+      -ms-flex-direction: column;
+          flex-direction: column; }
+      .about-us-wrapper > div {
+        margin-bottom: 15px; } }

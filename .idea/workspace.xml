@@ -13,6 +13,7 @@
       <change beforePath="$PROJECT_DIR$/src/template/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/template/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/services.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/template/vacancies.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/vacancies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/visa.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/visa.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +28,7 @@
       <list>
         <option value="SCSS File" />
         <option value="HTML File" />
+        <option value="HTML4 File" />
       </list>
     </option>
   </component>
@@ -40,7 +42,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="DefaultHtmlFileTemplate" value="HTML4 File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -63,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607869304885</updated>
-      <workItem from="1607869309750" duration="11491000" />
+      <workItem from="1607869309750" duration="19251000" />
     </task>
     <servers />
   </component>
