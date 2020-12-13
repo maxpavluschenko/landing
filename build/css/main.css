@@ -48,10 +48,9 @@ ul {
   padding: 0; }
 
 section {
-  scroll-behavior: smooth;
   scroll-margin-top: 100px;
-  min-height: 150px;
-  overflow: hidden; }
+  scroll-behavior: smooth;
+  min-height: 150px; }
   section ul {
     position: relative;
     list-style: none;
@@ -304,6 +303,15 @@ button {
       .banner-btn a:hover {
         -webkit-transform: translateZ(0) scale(1, 1);
                 transform: translateZ(0) scale(1, 1); }
+  @media screen and (max-width: 680px) {
+    .banner-wrapper {
+      -ms-flex-direction: column;
+          flex-direction: column; }
+    .banner-description {
+      margin-bottom: 20px; }
+    .banner-description, .banner-btn {
+      -ms-flex: 1;
+          flex: 1; } }
 
 .contacts {
   position: relative;

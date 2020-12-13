@@ -34,10 +34,6 @@ body {
   }
 }
 
-h1 {
-
-}
-
 h2 {
   color: #212529;
   margin-bottom: 10px;
@@ -65,10 +61,9 @@ ul {
 }
 
 section {
-  scroll-behavior: smooth;
   scroll-margin-top: 100px;
+  scroll-behavior: smooth;
   min-height: 150px;
-  overflow: hidden;
 
   ul {
     position: relative;

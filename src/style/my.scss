@@ -208,6 +208,19 @@
       }
     }
   }
+
+  @media screen and (max-width: 680px) {
+    &-wrapper {
+      flex-direction: column;
+    }
+    &-description {
+      margin-bottom: 20px;
+    }
+    &-description,
+    &-btn {
+      flex: 1;
+    }
+  }
 }
 
 .contacts {
@@ -336,7 +349,7 @@
 
       .vacancy {
         grid-gap: 10px;
-        grid-template-columns: auto
+        grid-template-columns: auto;
       }
     }
   }
