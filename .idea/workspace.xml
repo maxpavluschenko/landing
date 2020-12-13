@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="6bb88592-ec93-4c55-b305-91a08f2adea7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/my.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/my.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/vacancies.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/vacancies.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607869304885</updated>
-      <workItem from="1607869309750" duration="8084000" />
+      <workItem from="1607869309750" duration="8826000" />
     </task>
     <servers />
   </component>

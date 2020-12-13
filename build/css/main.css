@@ -133,6 +133,24 @@ button {
         white-space: nowrap; }
     .vacancies-wrapper .vacancy-btn {
       padding: 25px; }
+  .vacancies .show-more {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center; }
+    .vacancies .show-more .btn {
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      transition: .3s;
+      padding: 10px 0;
+      cursor: pointer; }
+      .vacancies .show-more .btn:hover {
+        color: #FC6E51;
+        text-decoration: underline;
+        background-color: rgba(0, 0, 0, 0.1); }
 
 .services {
   display: -ms-flexbox;
