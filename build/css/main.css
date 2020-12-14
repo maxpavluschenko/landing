@@ -224,7 +224,7 @@ button {
         text-decoration: none;
         cursor: pointer;
         transition: .35s; }
-        .header .navbar-nav .nav-item .nav-link:hover, .header .navbar-nav .nav-item .nav-link:focus, .header .navbar-nav .nav-item .nav-link:active, .header .navbar-nav .nav-item .nav-link:visited {
+        .header .navbar-nav .nav-item .nav-link:hover, .header .navbar-nav .nav-item .nav-link:focus {
           color: rgba(255, 255, 255, 0.75);
           background-color: rgba(255, 255, 255, 0.1); }
       .header .navbar-nav .nav-item.active .nav-link {
