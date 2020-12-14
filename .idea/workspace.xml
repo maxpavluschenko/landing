@@ -4,12 +4,10 @@
     <list default="true" id="6bb88592-ec93-4c55-b305-91a08f2adea7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/global.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/template/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/template/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/template/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template/vacancies.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/vacancies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template/visa.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/visa.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Project/ppt_search_tool" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -67,6 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607869304885</updated>
       <workItem from="1607869309750" duration="21265000" />
+      <workItem from="1607939842070" duration="345000" />
     </task>
     <servers />
   </component>
@@ -83,5 +82,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
